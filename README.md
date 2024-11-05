@@ -53,7 +53,7 @@ The `else` statement can be added after an `if` statement to define an alternati
 
 ```js
 // Using `if` and `else` to handle different conditions
-weather = 'sunny';
+
 
 if (weather === 'rainy') {
   console.log("Take an umbrella!"); // Expected output: (This will not print because the condition is false)
@@ -63,7 +63,7 @@ if (weather === 'rainy') {
 ```
 
 - [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
-
+weather = 'sunny';
 **Explanation:**
 
 - The `else` statement runs a block of code if the `if` condition is false.
